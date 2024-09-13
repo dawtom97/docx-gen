@@ -1,14 +1,13 @@
 from docx import Document
-
-print("a to jest moja zmiana")
-print(123)
-print("no jest fajnie")
-
+name=input("podaj imię: ")
+surname=input("podaj nazwisko: ")
+point=input("podaj ilość punktów: ")
+company=input("podaj nazwę firmy: ")
 data = {
-    "imie":"Barbara",
-    "nazwisko":"Nowak",
-    "punkty":"89",
-    "firma":"Januszex"
+    "imie":name,
+    "nazwisko":surname,
+    "punkty":point,
+    "firma":company
 }
 
 def generate_docx(path):
