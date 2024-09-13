@@ -1,6 +1,6 @@
 from docx import Document
 
-print("to jest MOJA ZMIANA!")
+print("a to jest moja zmiana")
 
 data = {
     "imie":"Barbara",
