@@ -2,6 +2,7 @@ from docx import Document
 
 print("a to jest moja zmiana")
 print(123)
+print("no jest fajnie")
 
 data = {
     "imie":"Barbara",
