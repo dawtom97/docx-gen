@@ -1,5 +1,7 @@
 from docx import Document
 
+print("to jest MOJA ZMIANA!")
+
 data = {
     "imie":"Barbara",
     "nazwisko":"Nowak",
